@@ -1,0 +1,12 @@
+Eight-discipline taxonomy validation, 2026-09-18
+
+Expanded the platform disciplines to: 人工智能与深度学习、计算机图像处理、系统与架构研究、通信网络、信息安全、大数据及其挖掘、交叉学科、其他.
+
+Updated homepage service cards to eight items, mentor filter tabs, research-needs form options, homepage hero description, footer discipline links, and process-page discipline references. Added dedicated cards for 大数据及其挖掘 and 交叉学科 with tailored descriptions and tags. Replaced the English hero caption with neutral wording.
+
+Browser validation confirmed all eight service cards, all eight mentor filter labels, all eight discipline links, and the new contact details. TypeScript and production build checks passed.
+Customer-service prompt validation, 2026-09-18
+
+Added a standardized success-dialog prompt to homepage and process-page research request submissions: “请添加客服微信 HawkL001”.
+
+The prompt is styled as a highlighted inline callout inside the success dialog. A browser interaction test opened the homepage request form, submitted a test request, and confirmed the visible success dialog text exactly reads “请添加客服微信 HawkL001”. TypeScript and production build checks passed.
